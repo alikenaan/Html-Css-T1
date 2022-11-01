@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\ali one"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tamplate one"
+	}
+}
