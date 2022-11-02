@@ -403,6 +403,13 @@ line-height: 1.8;
     font-weight: 800;
     color: var(--main-color);
     text-decoration: none;
+    
+}
+.contact .info .link i {
+    transition: .3s;
+}
+.contact .info .link i:hover{
+    color: var(--secondary-color);
 }
 .contact .info .social{
     display: flex;
@@ -410,9 +417,18 @@ line-height: 1.8;
     margin-top: 20px;
     font-size: 16px;
 }
+.contact .info .social a{
+    margin-left: 15px;
+    
+}
+
 .contact .info .social i{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     color: var(--secondary-color);
+    transition: .3s;
+}
+.contact .info .social i:hover {
+    color: var(--main-color);
 }
 @media (max-width: 767px) {
 .contact .info .label,
@@ -430,7 +446,7 @@ padding: 30px 10px;
 text-align: center;
 font-size: 18px;
 }
-.footer span {
+.footer span a {
 font-weight: bold;
 color: var(--main-color);
 }
